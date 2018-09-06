@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+	margin: auto;
+	text-align: center;
+}
+
+h6 {
+	margin: 0px;
+}
+
+iframe {
+	height: 130px;
+}
+
+#myCanvas {
+	background-color: #CCCCCC;
+	width: 600px;
+	height: 600px;
+}
+
+#bio {
+	width: 700px;
+	margin: auto;
+}

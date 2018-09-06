@@ -41,6 +41,42 @@
 		<canvas name="myCanvas" id="myCanvas" />
 	</section>
 	
+	<section>
+		<h3>Datalist Element</h3>
+		<label for="myList" id="myListLabel">Enter an option:
+		<input type="text" list="myList">
+			<datalist id="myList">
+				<option value="" />
+				<option value="second">Second</option>
+				<option value="third">Third</option>
+				<option value="fourth">Fourth</option>
+			</datalist>
+		</label>
+	</section>
+	
+	<section>
+		<h3>iframe Element</h3>
+		<iframe src="../001-HTML_Elements/index.html" name="myIframe" id="myIframe">
+		<p>Your browser does not have support for iframe</p>
+		</iframe>
+	</section>
+	
+	<section>
+		<h3>Script Elements</h3>
+		<script type="text/javascript" link="scripts.js"></script>
+		<noscript>Your browser does not support Javascript elements</noscript>
+	</section>
+	
+	<section>
+		<h3>Form Element</h3>
+		<form action="./myForm.php" method="POST" name="myForm" id="myForm" autocomplete>
+			<fieldset name="bio" id="bio">
+				<legend>Sample Formset</legend>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" maxlength="30" size="35" placeholder="Your full name here" autofocus />
+			</fieldset>
+		</form>
+	</section>
 </body>
 
 
